@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVIDetective</title>
+    <link href="style.css" rel="stylesheet" />
+    <!--<script src="https://unpkg.com/vue"></script>-->
+    <link rel="icon" href="./Resources/Pics/window_icon.png">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+<body>
+    <header id=" header">
+        <ul class="nav-list" id="Menu">
+            <img class="Image" src="./Resources/Pics/logo.png" style="height: 70%;">
+            <li><a class="nav-links" href="#S1">HOME</a></li>
+            <li><a class="nav-links" href="#S2">LOCATE</a></li>
+            <li><a class="nav-links" href="#S3">MONITOR</a></li>
+            <li><a class="nav-links" href="#S4">SPOT</a></li>
+            <li><a class="nav-links" href="#S5">ABOUT US</a></li>
+            <li><a class="nav-links" href="#S6">CONTACT US</a></li>
+        </ul>
+    </header>
+    <div class="hyperwrap">
+        <div class="wrap">
+
+            <div class="section" style="height: 100%;" id="S0">
+                <div class="bottomalign">
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+
+                    <a href="#S1">
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+                    <a>
+                        <img src="./Resources/Pics/Slide0/symbol_down_c.png" style="height: 12.5%; opacity:0">
+                    </a>
+                </div>
+            </div>
+            <div id="S1">
+                <img src="./Resources/Pics/Slide1/BG.png" style="width: 100%;object-fit: cover;">
+            </div>
+            <div class="section" id="S2" style="position: absolute;object-fit: cover;">
+                <img src="./Resources/Pics/Slide2/BG.jpg" style="display: block;width:100vw;object-fit: cover;">
+                <img src="./Resources/Pics/Slide2/bottom.png" style="position: relative;margin-right: 10%;margin-top: -75%;">
+            </div>
+            <div class="section" style="height: 100%" id="S3">
+                <p>test</p>>
+            </div>
+            <div class="section" style="height: 100%" id="S4">
+                <h1>Quiz on Covid-19</h1>
+                <div class="quiz-container">
+                    <div id="quiz"></div>
+                </div>
+                <button id="previous">Previous Question</button>
+                <button id="next">Next Question</button>
+                <button id="submit">Submit Quiz</button>
+                <div id="results"></div>
+            </div>
+            <div class="section" style="height: 100%" id="S5">
+                <p>Test</p>
+            </div>
+            <div class="section" style="height: 100%" id="S6">
+                <!--<img src="./Resources/Pics/Slide6/BG.png" style="width: 100%">-->
+            </div>
+        </div>
+    </div>
+    <!----
+    <div id="hrx_starter">
+        <h1>Welcome to HRX Beginners Track!</h1>
+
+        <h2>What is your name?</h2>
+
+        <input v-model="username" type="text">
+        <button v-on:click="greet">Greetings!</button>
+
+        <h2>{{ greeting }}</h2>
+    </div>
+-->
+    <script src="app.js"></script>
+</body>
+
+</html>

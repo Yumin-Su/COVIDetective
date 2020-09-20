@@ -1,0 +1,126 @@
+/* Optional: Makes the sample page fill the window. */
+
+@font-face {
+    font-family: "charter";
+    src: url("./Resources/Fonts/Charter.woff");
+}
+
+body {
+    z-index: 2;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin-bottom: auto;
+    background-image: url("./Resources/Pics/Q/BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-family: "charter";
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+.question {
+    font-family: "charter";
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 17%;
+    margin-left: 0%;
+}
+
+.answers {
+    font-family: "charter";
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    font-family: "charter";
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: "charter";
+    font-size: 18px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px;
+    width: 13%;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-left: 20%;
+}
+
+button:hover {
+    background-color: #38a;
+}
+
+.slide {
+    font-family: "charter";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    font-family: "charter";
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    margin-left: 20%;
+    margin-top: 50%;
+    font-family: "charter";
+    position: relative;
+    height: 340px;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.report-container {
+    margin-left: 20%;
+    margin-top: 0%;
+    display: flex;
+    font-family: "charter";
+    position: relative;
+    height: 340px;
+    width: 70%;
+    margin-top: 40px;
+}
+
+p {
+    font-family: "charter";
+    margin-left: auto;
+    margin-bottom: -4%;
+}
+
+#certificate {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.results {
+    margin-top: -40%;
+}
